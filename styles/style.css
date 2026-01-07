@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* main style */
+header{
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    max-width: 1600px;
+    height: 700px;
+    max-height: 808px;
+    vertical-align: middle;
+}
+.banner .banner-info{
+    max-width: 525px;
+    position: absolute;
+    top: 202px;
+    right: 230px;
+    bottom: 364px;
+    left: 845px;
+    text-align: right;
+}
+.banner .banner-info h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.banner .banner-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+.banner .banner-info button{
+    background-color: #F15B22;
+    padding: 20px 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#failures{
+    padding-top: 131px;
+}
+#failures .failures-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+#failures .failures-container .fail-img img{
+    width: 550px;
+}
+#failures .failures-container .fail-des{
+    max-width: 416px;
+}
+#failures .failures-container .fail-des .section-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+#failures .failures-container .fail-des p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+#failures .failures-container .fail-des .des-tick .fa-check{
+    color: #16D887;
+}
+#failures .failures-container .fail-des .des-tick p{
+    margin-bottom: 8px;
+}
+
+#plans{
+    margin-top: 131px;
+}
+#plans .plans-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#plans .plans-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 55px;
+    text-align: center;
+}
+#plans .plans-container .cards{
+    display: flex;
+    justify-content: space-between;
+}
+#plans .plans-container .cards .plan-card{
+    text-align: center;
+}
+
+#call{
+    margin-top: 131px;
+}
+#call .call-container{
+    width: 71%;
+    max-width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+#call .call-container .call-image img{
+    position: absolute;
+}
+#call .call-container .call-image .call-info{
+    position: absolute;
+    max-width: 459px;
+    top: 59px;
+    left: 64px;
+}
+#call .call-container .call-image .call-info h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+#call .call-container .call-image .call-info button{
+    background-color: #FFFFFF;
+    padding: 21px 36px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+footer{
+    padding-top: 130px;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer .footer-container .footer-des{
+    max-width: 485px;
+}
+footer .footer-container form{
+    max-width: 325px;
+}
